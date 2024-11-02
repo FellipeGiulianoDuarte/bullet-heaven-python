@@ -1,0 +1,80 @@
+{
+    "screen_size": [1280, 720],
+    "dash_cooldown": 300,
+    "mobs": {
+        "Easy": {
+            "to_create": 1,
+            "creation_interval": 7000,
+            "price_multiplier": 0.8,
+            "max_spawn": 20
+        },
+        "Medium": {
+            "to_create": 1,
+            "creation_interval": 6000,
+            "price_multiplier": 1.0,
+            "max_spawn": 25
+        },
+        "Hard": {
+            "to_create": 1,
+            "creation_interval": 5000,
+            "price_multiplier": 1.2,
+            "max_spawn": 30
+        }
+    },
+    "player": {
+        "health": 100,
+        "max_health": 100,
+        "money": 0,
+        "score": 0,
+        "screen_size": [1280, 720],
+        "player_size": 50,
+        "acceleration": 1.5,
+        "friction": 0.1,
+        "immunity_duration": 1.0,
+        "blink_interval": 10
+    },
+    "mob_attributes": {
+        "base_health": 5,
+        "base_speed": 1.1,
+        "base_damage": 5,
+        "health_increase_per_wave": 2,
+        "speed_increase_per_wave": 0.05,
+        "damage_increase_per_wave": 0.5
+    },
+    "hud_positions": {
+        "health_bar": [10, 10],
+        "cooldown_bar": [10, 50],
+        "money": [10, 90],
+        "score": [10, 125],
+        "wave": [640, 360],
+        "paused": [540, 310],
+        "shop_menu": [640, 50]
+    },
+    "shop_prices": {
+        "potion_cost": 15,
+        "new_weapon_cost": 150,
+        "player_speed_cost": 50,
+        "player_max_health_cost": 100,
+        "shotgun_upgrade_cost": 300
+    },
+    "guns": {
+        "Pistol": {
+            "damage": 15,
+            "fire_rate": 1.5,
+            "bullet_speed": 15
+        },
+        "Rifle": {
+            "damage": 10,
+            "fire_rate": 10,
+            "bullet_speed": 20
+        },
+        "Shotgun": {
+            "damage": 25,
+            "fire_rate": 2,
+            "bullet_speed": 20,
+            "pellet_number": 3,
+            "spread_angle": 20,
+            "lifespan": 12
+        }
+    }
+}
